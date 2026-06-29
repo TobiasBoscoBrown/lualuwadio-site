@@ -67,7 +67,7 @@ export default function Quick() {
     <div className="q">
       <style>{CSS}</style>
       <div className="qbar">
-        <div className="qbrand">BEN<span>.</span>DAVIS <small>quick edits</small></div>
+        <div className="qbrand">LUA<span>.</span>LUWADIO <small>quick edits</small></div>
         <div className="qactions">
           <a className="qbtn ghost" href="/">Back to site</a>
           {status === 'in' && <button className="qbtn save" disabled={busy || !dirty} onClick={save}>{busy ? 'Saving...' : dirty ? 'Save' : 'Saved'}</button>}
@@ -127,7 +127,7 @@ export default function Quick() {
 }
 
 const CSS = `
-.q{--cream:#efe9dd;--ink:#15130f;--ink-soft:#3b3730;--blue:#3a9fc7;--blue-deep:#2b85ab;--line:rgba(21,19,15,.16);background:var(--cream);color:var(--ink);min-height:100vh;font-family:'Archivo',system-ui,sans-serif}
+.q{--cream:#f6f2eb;--ink:#16110f;--ink-soft:#4a4036;--blue:#b00d17;--blue-deep:#840a11;--line:rgba(21,19,15,.16);background:var(--cream);color:var(--ink);min-height:100vh;font-family:'Archivo',system-ui,sans-serif}
 .q *{box-sizing:border-box}
 .qbar{position:sticky;top:0;z-index:10;background:rgba(239,233,221,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:13px 22px;gap:10px}
 .qbrand{font-family:'Anton',sans-serif;font-size:22px;letter-spacing:.04em;white-space:nowrap}
