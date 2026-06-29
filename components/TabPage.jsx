@@ -10,6 +10,7 @@ export default async function TabPage({ pageKey }) {
   const c = await getContent();
   const p = c.pages[pageKey];
   const base = `pages.${pageKey}`;
+  const b = c.booking || {};
   return (
     <>
       <section className="block tab-hero">
@@ -19,8 +20,12 @@ export default async function TabPage({ pageKey }) {
             <h1 className="display"><Edit path={`${base}.title`}>{p.title}</Edit></h1>
             <p className="lead"><Edit path={`${base}.intro`}>{p.intro}</Edit></p>
             <div className="hero-actions">
-              <EmailButton email={c.site.email} subject={`${p.title} inquiry`} className="btn btn-primary" label={p.ctaLabel || 'Book me'} />
-              <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost">Instagram</a>
+              {b.url
+                ? <a href={b.url} target="_blank" rel="noopener" className="btn btn-primary">{(p.ctaLabel || 'Shop')} →</a>
+                : (c.site.email
+                    ? <EmailButton email={c.site.email} subject={`${p.title} inquiry`} className="btn btn-primary" label={p.ctaLabel || 'Book me'} />
+                    : <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-primary">{p.ctaLabel || 'Message me'}</a>)}
+              {c.social.instagram ? <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost">Instagram</a> : null}
             </div>
           </div>
           {p.videoId ? (
@@ -55,8 +60,10 @@ export default async function TabPage({ pageKey }) {
         <div className="wrap">
           <h2 className="display"><Edit path={`${base}.ctaLabel`}>{p.ctaLabel || "Let's collab"}</Edit></h2>
           <div className="hero-actions" style={{ justifyContent: 'center', marginTop: 20 }}>
-            <EmailButton email={c.site.email} subject={`${p.title} inquiry`} className="btn btn-primary" label="Email Ben" />
-            <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost">DM on Instagram</a>
+            {b.url
+              ? <a href={b.url} target="_blank" rel="noopener" className="btn btn-primary">{(b.ctaLabel || 'Shop the drop')} →</a>
+              : (c.site.email ? <EmailButton email={c.site.email} subject={`${p.title} inquiry`} className="btn btn-primary" label="Email" /> : null)}
+            {c.social.instagram ? <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost">DM on Instagram</a> : null}
           </div>
         </div>
       </section>
