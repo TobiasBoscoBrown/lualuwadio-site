@@ -1,0 +1,141 @@
+{
+  "site": {
+    "brand": "LUA.LUWADIO",
+    "title": "LUALUWADIO | Handmade SheWolf Swimwear from the UK",
+    "description": "LUALUWADIO is an independent UK label making handmade swimwear and streetwear in limited runs. Meet the SheWolf Kini, white sets cut with blood-red claw marks.",
+    "domain": "lualuwadio-site.vercel.app",
+    "email": ""
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/lualuwadio/",
+    "etsy": "https://lualuwadio.etsy.com",
+    "depop": "https://www.depop.com/lualuwadio/",
+    "threads": "https://www.threads.com/@luwadinaluwadio",
+    "tiktok": "",
+    "youtube": "",
+    "snapchat": "",
+    "shopmy": "",
+    "cashapp": "",
+    "venmo": "",
+    "paypal": "",
+    "wishlist": ""
+  },
+  "stats": [
+    { "n": "UK", "l": "MADE BY HAND" },
+    { "n": "Limited", "l": "RUNS ONLY" },
+    { "n": "XS-L", "l": "SIZE RANGE" },
+    { "n": "Worldwide", "l": "SHIPPING" }
+  ],
+  "marquee": [
+    "Handmade",
+    "Limited runs",
+    "SheWolf",
+    "Made in the UK",
+    "Threaded with power",
+    "New colours soon"
+  ],
+  "home": {
+    "kicker": "MADE IN THE UK",
+    "h1line1": "SHE",
+    "h1line2": "WOLF",
+    "sub_bold": "Handmade swimwear and streetwear, cut in limited runs.",
+    "sub_rest": "LUALUWADIO is an independent UK label. The debut SheWolf Kini comes in white with blood-red claw marks, made to order and built to last.",
+    "portrait": "/assets/hero.jpg",
+    "portraitTag": "SHEWOLF",
+    "portraitTagSub": "BLOOD RED EDITION",
+    "primaryCtaLabel": "Shop the drop",
+    "ghostCtaLabel": "Follow on Instagram",
+    "workEyebrow": "WHAT WE MAKE",
+    "workTitle": "INSIDE THE PACK",
+    "blocks": []
+  },
+  "pages": {
+    "modeling": {
+      "nav": "The Drop",
+      "eyebrow": "THE COLLECTION",
+      "title": "THE DROP",
+      "intro": "The SheWolf Kini is our first release. Each set is handmade to order in white with blood-red claw marks, sized XS to L. Runs are limited, so once a colour sells out it's gone.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/drop_1.jpg", "alt": "SheWolf Kini bikini set in white with red claw marks", "caption": "SHEWOLF KINI" },
+        { "src": "/media/drop_2.jpg", "alt": "SheWolf Kini blood red edition", "caption": "BLOOD RED EDITION" },
+        { "src": "/media/drop_3.jpg", "alt": "Hand-finished red claw detail", "caption": "CLAW DETAIL" }
+      ],
+      "ctaLabel": "SHOP ON ETSY",
+      "blocks": []
+    },
+    "acting": {
+      "nav": "Lookbook",
+      "eyebrow": "THE LOOK",
+      "title": "LOOKBOOK",
+      "intro": "A closer look at the cut, the ties, and the hand-finished claw marks. Every piece is sewn by hand, so small differences are part of the brand.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/look_1.jpg", "alt": "SheWolf Kini front view", "caption": "THE CUT" },
+        { "src": "/media/look_2.jpg", "alt": "SheWolf Kini full set flat lay", "caption": "THE SET" },
+        { "src": "/media/look_3.jpg", "alt": "SheWolf logo and branding", "caption": "THE MARK" }
+      ],
+      "ctaLabel": "SEE THE SHOP",
+      "blocks": []
+    },
+    "content-creation": {
+      "nav": "The Pack",
+      "eyebrow": "JOIN THE PACK",
+      "title": "THE PACK",
+      "intro": "New colours are on the way and early drops land first with the pack. Follow along and shop the latest from any of these.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/pack_1.jpg", "alt": "Shop LUALUWADIO on Etsy", "caption": "ETSY" },
+        { "src": "/media/pack_2.jpg", "alt": "Shop LUALUWADIO on Depop", "caption": "DEPOP" },
+        { "src": "/media/pack_3.jpg", "alt": "Follow LUALUWADIO on Instagram", "caption": "INSTAGRAM" }
+      ],
+      "ctaLabel": "FOLLOW @LUALUWADIO",
+      "blocks": []
+    },
+    "about": {
+      "nav": "Our Story",
+      "eyebrow": "THE STORY",
+      "title": "ABOUT LUALUWADIO",
+      "heroImage": "/media/about_hero.jpg",
+      "big": "Made with love.|Threaded|with power.",
+      "paragraphs": [
+        "LUALUWADIO is an independent label out of the UK, built around one idea: small-batch pieces that feel like armour. The SheWolf Kini is where it starts, white sets cut with blood-red claw marks and finished by hand.",
+        "Everything is made to order in limited runs, so what you get is yours and not mass-produced. New colours are coming, and the pack hears about them first. Want one? Tap through to the shop or send a message on Instagram."
+      ],
+      "pills": [ "HANDMADE", "LIMITED RUNS", "MADE IN THE UK", "SHIPS WORLDWIDE" ],
+      "videoId": "",
+      "videoCaption": "",
+      "guide": {
+        "eyebrow": "THE LABEL",
+        "title": "LUALUWADIO",
+        "body": "One label, one pack. Handmade swimwear cut for the women who run with the moon. Shop the SheWolf drop while it lasts.",
+        "image": "/assets/guide.jpg",
+        "ctaLabel": "SHOP THE DROP",
+        "ctaHref": "https://lualuwadio.etsy.com"
+      },
+      "partner": { "code": "", "text_pre": "", "text_rest": "", "ctaLabel": "", "ctaHref": "" },
+      "blocks": []
+    },
+    "contact": {
+      "nav": "Contact",
+      "eyebrow": "GET IN TOUCH",
+      "title": "Let's talk",
+      "intro": "The fastest way to reach me is a DM on Instagram or a message through the Etsy shop. Questions on sizing, colours, or custom orders are all welcome.",
+      "connectEyebrow": "Find Me",
+      "blocks": []
+    }
+  },
+  "promoLinks": [],
+  "booking": {
+    "eyebrow": "THE SHOP",
+    "title": "Get the SheWolf Kini",
+    "intro": "Each set is handmade to order in limited runs and sells fast. Tap through to grab yours, or message me first if you have a question.",
+    "ctaLabel": "Shop the drop",
+    "url": "https://lualuwadio.etsy.com",
+    "phone": "",
+    "note": "Handmade to order. Ships worldwide."
+  }
+}
